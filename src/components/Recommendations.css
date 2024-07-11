@@ -1,0 +1,61 @@
+.recommendations-container {
+    margin: 0 auto;
+    padding: 100px 0;
+    width: 50%;
+    min-width: 300px;
+    color: #fff;
+}
+
+.recommendations-summary {
+    width: 50%;
+    min-width: 300px;
+    margin-top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recommendations-header {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+button.recommendations-reload {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    color: #1ae235;
+    font-size: 40px;
+}
+
+button.recommendations-reload:disabled {
+    background-color: transparent;
+    cursor: not-allowed;
+    border: none;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.recommendations-text {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    font-size: 20px;
+    background-color: #ffbb00;
+    padding: 15px;
+    color: #000;
+}
+
+.loading-spinner-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
